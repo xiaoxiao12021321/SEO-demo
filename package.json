@@ -7,8 +7,11 @@
     "serve": "vite preview",
     "postbuild": "react-snap"
   },
-  "reactSnap": {
-    "source": "dist"
+ "reactSnap": {
+    "puppeteerArgs": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox"
+    ]
   },
   "dependencies": {
     "@reach/router": "1.3.4",
