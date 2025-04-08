@@ -1,0 +1,15 @@
+{
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node"
+    }
+  ],
+  "build": {
+    "commands": [
+      "apt-get update && apt-get install -y libnss3 libatk-bridge2.0-0 libatk1.0-0 libcups2 libx11-xcb1 libgbm1",
+      "yarn install",
+      "yarn build"
+    ]
+  }
+}
