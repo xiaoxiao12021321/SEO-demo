@@ -13,7 +13,7 @@ function Counter(props: RouteComponentProps) {
     <div className="App">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>My React SEO - Counter</title>
+        <title>My React SEO - Counter11111111111111</title>
         <link
           rel="canonical"
           href="https://react-seo-demo-dunghd.vercel.app/"
